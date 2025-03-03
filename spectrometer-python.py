@@ -42,6 +42,7 @@ def compute_spectrum(frame):
     return wavelengths, intensity_profile, cropped
 
 # === FUNCTION: Display Live Spectrum ===
+# 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
 def show_spectrum(frame):
     """ Show the spectrum analyzer in real-time when 's' is pressed. """
     wavelengths, intensity, _ = compute_spectrum(frame)
